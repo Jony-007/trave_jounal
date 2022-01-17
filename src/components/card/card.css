@@ -1,0 +1,54 @@
+
+.card{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.card-img{
+    width: 125px;
+    height: 222px;
+}
+
+.location{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.country{
+    letter-spacing: .199rem;
+    font-weight:400;
+    font-size: 12.24px;
+}
+
+.maps-location{
+    color: #918E9B;
+    font-size: 12.24px;
+}
+
+.fa-map-marker-alt{
+    color: #F55A5A;
+}
+
+.card-title{
+    font-size: 25px;
+
+}
+
+.card-start-end-date{
+    margin-top: 15px;
+    font-size: 12.24px;
+    font-weight:700;
+}
+.card-description{
+    width: 80%;
+    margin-top: 5px;
+    font-size: 12.24px;
+}
+
+
