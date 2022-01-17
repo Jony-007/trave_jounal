@@ -14,7 +14,20 @@ body {
 }
 
 #root{
-  width: 60%;
-  margin:0 auto;
-  background-color: #FFF;
+  
+
+    width: 60%;
+    margin:0 auto;
+    background-color: #FFF;
+}
+
+@media (max-width:768px) {
+  #root{
+    width: 100%;
+    margin:0 auto;
+    background-color: #FFF;
+    
+  }
+
+  
 }
